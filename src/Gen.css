@@ -1,0 +1,96 @@
+/* General Page Styling */
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between elements */
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Modern font */
+    background-color: #1b1a1a; /* Black background */
+    color: #fff; /* White text for contrast */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Text Styling */
+.text1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #f05151;
+    margin: 10px 0;
+
+}
+
+span {
+    font-size: 32px;
+    color: #4d3c71; /* Highlight color for emphasis */
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Image Container */
+.ii img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20%; /* Circular images */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Glowing shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+}
+
+.ii img:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+/* Input Container */
+.ent {
+    display: flex;
+    height: 50px;
+    width: 500px;
+    background-color: #4d3c71; /* Purple background */
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Subtle glow */
+    transition: transform 0.3s ease-in-out; /* Interactive animation */
+}
+
+.ent:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Input Styling */
+.text {
+    display: flex;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff; /* White text */
+    margin-left: 15px;
+    font-size: 18px; /* Adjusted for better readability */
+}
+
+.text::placeholder {
+    color: #b3b3b3; /* Softer placeholder color */
+    font-size: 18px;
+}
+
+/* Button Styling */
+.btn {
+    background-color: red;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff; /* White text */
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Glow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: #000; /* Black text on hover */
+    transform: scale(1.1); /* Enlarge on hover */
+}
